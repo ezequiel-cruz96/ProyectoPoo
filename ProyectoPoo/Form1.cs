@@ -70,5 +70,10 @@ namespace ProyectoPoo
             auto.Visible = false;
             this.inputEntrada.Text = "";
         }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

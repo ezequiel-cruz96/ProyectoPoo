@@ -60,6 +60,10 @@
             this.plantilla.TabStop = false;
             this.plantilla.Click += new System.EventHandler(this.plantilla_Click);
             // 
+            // bindingSource1
+            // 
+            this.bindingSource1.CurrentChanged += new System.EventHandler(this.bindingSource1_CurrentChanged);
+            // 
             // Matricula
             // 
             this.Matricula.AutoSize = true;
