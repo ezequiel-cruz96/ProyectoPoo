@@ -44,9 +44,11 @@
             this.auto = new System.Windows.Forms.PictureBox();
             this.lugar1 = new System.Windows.Forms.Button();
             this.lugar2 = new System.Windows.Forms.Button();
+            this.auto2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.plantilla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.auto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.auto2)).BeginInit();
             this.SuspendLayout();
             // 
             // plantilla
@@ -191,12 +193,24 @@
             this.lugar2.Click += new System.EventHandler(this.lugar2_Click);
             this.lugar2.MouseHover += new System.EventHandler(this.lugar2_MouseHover);
             // 
+            // auto2
+            // 
+            this.auto2.Image = ((System.Drawing.Image)(resources.GetObject("auto2.Image")));
+            this.auto2.Location = new System.Drawing.Point(724, 138);
+            this.auto2.Name = "auto2";
+            this.auto2.Size = new System.Drawing.Size(54, 96);
+            this.auto2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.auto2.TabIndex = 19;
+            this.auto2.TabStop = false;
+            this.auto2.WaitOnLoad = true;
+            // 
             // inputMatricula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(838, 749);
+            this.Controls.Add(this.auto2);
             this.Controls.Add(this.auto);
             this.Controls.Add(this.lugar2);
             this.Controls.Add(this.lugar1);
@@ -215,6 +229,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.plantilla)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.auto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.auto2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,5 +251,6 @@
         private PictureBox auto;
         private Button lugar1;
         private Button lugar2;
+        private PictureBox auto2;
     }
 }
