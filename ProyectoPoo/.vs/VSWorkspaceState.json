@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\obj"
+    "\\obj\\Debug"
   ],
-  "SelectedNode": "\\obj\\ProyectoPoo.csproj.nuget.g.targets",
+  "SelectedNode": "\\ProyectoPoo.csproj",
   "PreviewInSolutionExplorer": false
 }
